@@ -68,12 +68,13 @@
 
         <section class="contact">
             <h2>Contact Me</h2>
-            <form>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Message"></textarea>
-                <button>Send Message</button>
-            </form>
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="f50e3823-f6cb-4830-a0f0-af3746ceb0c9">
+  <input type="text" name="name" placeholder="Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <textarea name="message" placeholder="Message" required></textarea>
+  <button type="submit">Submit</button>
+</form>
         </section>
 
         <footer>
