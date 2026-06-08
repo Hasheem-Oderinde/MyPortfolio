@@ -3,13 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     font-family: 'Space Grotesk', sans-serif;
     background: linear-gradient(
         135deg,
-        #75818e,
-        #000000
+        #1f2326,
+        #434040
     );
     color: white;
 }
@@ -19,6 +20,10 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
+    background-color: rgb(19, 18, 18);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 .links a {
     color: white;
@@ -26,7 +31,7 @@ nav {
     margin-left: 20px;
 }
 .links a:hover {
-    color: aqua;
+    color: #ff0000;
 }
 .hero {
     display: flex;
@@ -41,11 +46,14 @@ nav {
 .hero-text p {
     margin: 20px 0;
 }
+.hero-btn {
+    margin-top: 75px;
+}
 button {
     padding: 12px 25px;
     border: none;
     border-radius: 10px;
-    background: #38bdf8;
+    background: #ff0000;
     color: white;
     cursor: pointer;
     transition: .3s;

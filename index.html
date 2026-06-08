@@ -6,28 +6,31 @@
         initial-scale="1.0">
         <title>Hasheem</title>
         <link rel="stylesheet" href="CSS\style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
     </head>
     <body>
         <nav>
             <h2>HASHEEM</h2>
             <div class ="links">
-                <a href="#">Home</a>
-                <a href="#">Skills</a>
-                <a href="#">Projects</a>
-                <a href="#">Contact</a>
+                <a href="#"><i class="fa-solid fa-house"></i></a>
+                <a href="#skill-page"><i class="fa-sharp fa-solid fa-code"></i></a>
+                <a href="#projects-page"><i class="fa-solid fa-briefcase"></i></i></a>
+                <a href="#contacts-page"><i class="fa-solid fa-phone"></i></a>
             </div>
         </nav>
         <section class= "hero">
             <div class ="hero-text">
             <h1>We Build Amazing Websites and Digital Products</h1>
             <p>Passionate developer creating exceptional digital experiences with modern technologies.</p>
-            <button>Get In Touch</button>
+            <button class="hero-btn">Get In Touch</button>
             </div>
-
             <div class="hero-img">
                 <img src="https://th.bing.com/th/id/R.b1b463303db368fd76ad68356d1d4f0c?rik=lY2e9ubl6ESqZg&pid=ImgRaw&r=0" alt="progamming-
                 interface"/>
             </div>
+            <!--scroll to skill page-->
+            <div id="skill-page"></div>
+            <!--ends-->
         </section>
 
         <section class="skills">
@@ -48,10 +51,12 @@
             <div class="card">
                 <h3>ReactJs</h3>
                 <p>Interactive Websites</p>
+                <!--Scroll to project page-->
+                <div id="projects-page"></div>
+                <!--ends here-->
             </div>
             </div>
         </section>
-
         <section class="projects">
             <h2>Featured Projects</h2>
             <div class="projects-container">
@@ -65,7 +70,9 @@
                 </div>
             </div>
         </section>
-
+        <!--scroll to contact page-->
+        <div id="contacts-page"></div>
+        <!--ends here-->
         <section class="contact">
             <h2>Contact Me</h2>
 <form action="https://api.web3forms.com/submit" method="POST">
@@ -76,7 +83,6 @@
   <button type="submit">Submit</button>
 </form>
         </section>
-
         <footer>
             <p>© 2026 Hasheem. All rights reserved.</p>
         </footer>
